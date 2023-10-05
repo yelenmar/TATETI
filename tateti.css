@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  align-items: center;
+  background-color: #e09fd6;
+}
+
+.titulo {
+  color: rgb(0, 0, 0);
+  font-size: 200%;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  border: .1em solid #da7fcc;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+}
+.tablero{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  
+  border-radius: .5em;
+  /*background-color: #646996;*/
+}
+
+.btn {
+  border-radius: .4em;
+  border-color: #b168a6;
+  color: #000000;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+#final {
+  align-content: center;
+}
+
+#mensaje {
+  font-size: 1.5em;
+  color: #000000;
+  padding-top: 2em;
+}
